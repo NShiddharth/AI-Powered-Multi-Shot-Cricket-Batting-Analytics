@@ -8,6 +8,16 @@
 [![Deployment](https://img.shields.io/badge/Cloud-Streamlit%20Community%20Cloud-orange.svg)]()
 [![License](https://img.shields.io/badge/License-Academic%20%2F%20Research-purple.svg)]()
 
+---
+
+## 🌐 Live Demo
+
+**Try AthleteRise:** [Launch the public Streamlit application](https://ai-powered-multi-shot-cricket-batting-analytics-jw563gyvnpfn3c.streamlit.app/)
+
+> Hosted on Streamlit Community Cloud. The app may take a short time to wake up after a period without visitors.
+
+---
+
 **AthleteRise** is an automated, markerless computer-vision system designed for multi-shot cricket batting biomechanics analysis. Operating on monocular 2D standard-definition and high-definition video, AthleteRise applies CLAHE lighting normalization, tracks 15 full-body skeletal keypoints using Google MediaPipe Pose, detects stroke phases and bat–ball impact moments via multi-signal kinematic fusion, classifies strokes across three major shot archetypes (**Cover Drive**, **Straight Drive**, and **Pull Shot**), and evaluates biomechanical technique against empirical statistical distributions ($N=30$, 10 benchmark clips per shot class) with continuous non-linear scoring, dynamic occlusion handling, and human-in-the-loop ground-truth validation.
 
 ---
@@ -16,7 +26,7 @@
 
 > [!IMPORTANT]
 > **Authoritative Technical Documentation:**  
-> 📑 **[docs/PROJECT_MASTER_DOCUMENTATION.md](docs/PROJECT_MASTER_DOCUMENTATION.md)** — The comprehensive, authoritative master document containing the complete technical audit, mathematical formulas, 10 core + shot-specific biomechanical metrics, statistical calibration methodology, multi-signal contact detection, and 43-case test verification.
+> 📑 **[PROJECT_MASTER_DOCUMENTATION.md](docs/PROJECT_MASTER_DOCUMENTATION.md)** — The comprehensive, authoritative master document containing the complete technical audit, mathematical formulas, 10 core + shot-specific biomechanical metrics, statistical calibration methodology, multi-signal contact detection, and 43-case test verification.
 
 ---
 
@@ -196,8 +206,8 @@ AI-Powered-Cricket-Analytics-main/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/AthleteRise-Cricket-Analytics.git
-cd AthleteRise-Cricket-Analytics
+git clone https://github.com/NShiddharth/AI-Powered-Multi-Shot-Cricket-Batting-Analytics.git
+cd AI-Powered-Multi-Shot-Cricket-Batting-Analytics
 ```
 
 ### 2. Create and Activate Virtual Environment
@@ -295,38 +305,41 @@ python -m unittest discover tests
 
 ## ☁️ Streamlit Community Cloud Deployment Guide
 
-Follow these steps to deploy AthleteRise on Streamlit Cloud:
+AthleteRise is deployed publicly on Streamlit Community Cloud. You can open the live application here:
 
-### Step 1: Create GitHub Repository
-1. Log in to [GitHub](https://github.com/).
-2. Create a new repository named: `AthleteRise-Cricket-Analytics`.
-3. Set the repository visibility to **Public**.
-4. Do not initialize with a README, .gitignore, or license (these are already configured in this project).
+**https://ai-powered-multi-shot-cricket-batting-analytics-jw563gyvnpfn3c.streamlit.app/**
 
-### Step 2: Push Local Code to GitHub
-Run the following commands in your project terminal:
+### Deploy your own copy
+1. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/) with the GitHub account that can access the repository.
+2. Select **Create app** → **Deploy a public app from GitHub**.
+3. Choose the repository: `NShiddharth/AI-Powered-Multi-Shot-Cricket-Batting-Analytics`.
+4. Set **Branch** to `main`.
+5. Set **Main file path** to `app.py`.
+6. Open **Advanced settings** and select **Python 3.11** (the version used for the current deployment).
+7. Leave **Secrets** empty unless you later add a feature that requires credentials.
+8. Save the settings and click **Deploy**.
+
+Streamlit Community Cloud reads dependencies from the repository. This project includes:
+- `requirements.txt` for Python packages.
+- `packages.txt` for required Linux system packages.
+- `.streamlit/config.toml` for Streamlit configuration.
+
+### Update the deployed application
+The deployed app is connected to the GitHub repository. To publish code changes, commit and push them to the `main` branch:
 ```bash
-git status
 git add .
-git commit -m "Prepare AthleteRise for deployment"
-git branch -M main
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/AthleteRise-Cricket-Analytics.git
-git push -u origin main
+git commit -m "Describe your update"
+git push origin main
 ```
+Streamlit Community Cloud detects repository changes and updates the app. Changes to dependencies may trigger a longer rebuild.
 
-### Step 3: Deploy on Streamlit Community Cloud
-1. Visit [share.streamlit.io](https://share.streamlit.io/) and log in with GitHub.
-2. Click **Create app** (or **New app**).
-3. Select your repository: `<YOUR_GITHUB_USERNAME>/AthleteRise-Cricket-Analytics`.
-4. Set **Branch**: `main`.
-5. Set **Main file path**: `app.py`.
-6. Under **Advanced settings**, set Python version to **3.10** (or default 3.11).
-7. Click **Deploy!**.
+### Deployment troubleshooting
+- If the build fails, open the app's **Manage app** menu and inspect the deployment logs.
+- Check that `app.py`, `requirements.txt`, and `packages.txt` are present at the repository root.
+- Keep Python package versions compatible with the selected Python version.
+- If video processing exceeds the available resources, test with a shorter, lower-resolution clip and review the app logs.
 
-Streamlit Cloud will automatically:
-- Install Debian system packages from `packages.txt` (`ffmpeg`, `libgl1`, `libglib2.0-0`).
-- Install Python libraries from `requirements.txt`.
-- Launch the application and assign a public URL (`https://<your-app-name>.streamlit.app`).
+For official instructions, see the [Streamlit Community Cloud deployment documentation](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app).
 
 ---
 
@@ -335,7 +348,7 @@ Streamlit Cloud will automatically:
 - **Monocular 2D Perspective:** 2D monocular tracking computes planar projections of 3D joint movements; extreme diagonal camera angles can introduce foreshortening effects on elbow and knee angles.
 - **Lighting and Motion Blur:** Fast deliveries with heavy motion blur can reduce visual ball tracking confidence; the system gracefully relies on kinematic pose impact estimation and trajectory inflection when ball tracking is unavailable.
 - **Occlusion from Equipment:** Pads and protective batting gear can partially obscure the front ankle keypoint during deep forward defensive strides; optical-flow interpolation mitigates this.
-- **Streamlit Free Tier Resources:** Streamlit Community Cloud provides 1 CPU core and 1 GB RAM. Large 4K videos or processing extended high-FPS footage may hit memory boundaries. Upload clips between 2 to 10 seconds (under 50 MB) for optimal performance.
+- **Streamlit Community Cloud resources:** Community Cloud apps run with shared resource limits that can vary and may change. Large 4K videos, long clips, or high-frame-rate footage may exceed available CPU or memory. Start with short, lower-resolution clips and increase input size only after testing.
 
 ---
 
@@ -346,20 +359,3 @@ As detailed in the [Project Master Documentation](docs/PROJECT_MASTER_DOCUMENTAT
 2. **RTMPose-M Keypoint Model:** Migrate from MediaPipe to RTMPose-M (17 COCO keypoints) with ONNX Runtime for higher precision at 60–120 FPS.
 3. **Spatio-Temporal Graph Neural Networks (ST-GCN / CTR-GCN):** Replace heuristic kinematic feature distances with spatio-temporal graph convolutions for end-to-end stroke recognition.
 4. **FAISS Vector Embedding Retrieval:** Index hundreds of elite professional batting swings into a vector database for nearest-neighbor technique matching and personalized recommendations.
-
----
-
-## ⚖️ Academic License & Citation
-
-This project is developed for educational and research purposes under the Academic / Research License.
-
-If you reference or build upon AthleteRise in academic or sporting research, please cite:
-```bibtex
-@misc{athleterise2026,
-  author = {AthleteRise Engineering Team},
-  title = {AthleteRise: AI-Powered Multi-Shot Cricket Batting Analytics and Empirical Biomechanical Calibration Engine},
-  year = {2026},
-  publisher = {GitHub},
-  howpublished = {\url{https://github.com/NShiddharth/AthleteRise-Cricket-Analytics}}
-}
-```
