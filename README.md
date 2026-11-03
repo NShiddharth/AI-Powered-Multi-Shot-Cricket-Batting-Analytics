@@ -89,7 +89,7 @@ AthleteRise solves these challenges by combining markerless deep pose estimation
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="./docs/system_architecture.png" alt="AthleteRise 9-layer system architecture" width="100%">
+  <img src="./system_architecture.png" alt="AthleteRise 9-layer system architecture" width="100%">
 </p>
 
 The pipeline runs in nine layers, from raw video input to human-in-the-loop validation. Calibration and validation feedback loops back into contact estimation and the scoring engine.
