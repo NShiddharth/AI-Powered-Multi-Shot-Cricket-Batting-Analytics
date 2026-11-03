@@ -1,0 +1,36 @@
+{
+    "reference_counts": {
+        "cover_drive": 10,
+        "straight_drive": 10,
+        "pull_shot": 10
+    },
+    "training_samples": 30,
+    "feature_count": 12,
+    "test_feature_count": 12,
+    "extracted_features": {
+        "front_foot_direction": 156.68,
+        "stride_length": 0.4247,
+        "shoulder_rotation": 152.85,
+        "hip_rotation": 165.41,
+        "front_elbow_angle": 70.21,
+        "spine_lean": 35.53,
+        "head_knee_alignment": 1.1566,
+        "rotary_shoulder_diff": 10.19,
+        "wrist_horizontal_travel": 7.8598,
+        "wrist_vertical_travel": 1.2734,
+        "follow_through_angle": 123.95,
+        "head_stability": 21.4281
+    },
+    "missing_features": [],
+    "nan_features": [],
+    "predicted_class": "cover_drive",
+    "confidence": 0.99,
+    "class_probabilities": {
+        "cover_drive": 0.99,
+        "straight_drive": 0.0061,
+        "pull_shot": 0.0039
+    },
+    "top1_top2_margin": 0.9839,
+    "classification_status": "classified",
+    "unknown_reason": null
+}

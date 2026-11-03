@@ -1,0 +1,11 @@
+video_id,filename,status,handedness,front_elbow_angle,spine_lean,head_knee_alignment,front_foot_direction,shoulder_rotation,hip_rotation,stride_length,head_stability,follow_through_angle,follow_through_quality
+straight_0101,straight_0101.avi,valid,right,156.75,8.86,0.1662,164.57,165.3,169.4,1.1948,27.2476,164.57,100.0
+straight_0102,straight_0102.avi,valid,left,159.97,11.83,0.2446,165.14,170.24,170.04,0.2527,47.745,156.49,100.0
+straight_0103,straight_0103.avi,valid,right,157.26,5.46,0.1141,152.67,121.5,124.23,0.7152,18.7891,104.8,69.87
+straight_0104,straight_0104.avi,valid,right,136.48,2.39,0.0009,178.34,166.69,165.02,0.43,293.9416,98.5,65.67
+straight_0105,straight_0105.avi,valid,right,135.84,10.91,0.1412,173.84,152.78,141.61,0.7959,21.2901,117.36,78.24
+straight_0106,straight_0106.avi,valid,right,142.77,11.87,0.0099,159.18,137.33,176.67,1.1761,156.4888,136.93,91.29
+straight_0107,straight_0107.avi,valid,right,138.38,21.21,0.0935,171.8,155.74,166.81,0.5282,49.9636,120.23,80.15
+straight_0108,straight_0108.avi,valid,right,99.98,16.78,0.175,166.44,143.82,158.69,0.6143,15.9737,63.12,42.08
+straight_0109,straight_0109.avi,valid,right,145.04,1.95,0.1084,172.51,124.25,155.27,0.4521,8.9554,178.98,100.0
+straight_0110,straight_0110.avi,valid,right,132.1,15.74,0.0342,172.47,164.97,174.23,0.5357,9.7603,161.68,100.0

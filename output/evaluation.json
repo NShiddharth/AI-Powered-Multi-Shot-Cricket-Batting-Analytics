@@ -1,0 +1,503 @@
+{
+    "evaluation_mode": "DATA-DRIVEN REFERENCE",
+    "is_fallback": false,
+    "shot_type": "cover_drive",
+    "reference_path": "output/reference_calibration/cover_drive/cover_drive_reference.json",
+    "reference_sample_count": 10,
+    "batter_stance": "right",
+    "overall_score": 68.06,
+    "overall_score_display": "68.1 / 100",
+    "skill_grade": "Intermediate",
+    "grading_scale_disclaimer": "Scores evaluated against calibrated reference baseline percentiles (P10-P90).",
+    "status": "valid",
+    "category_scores": {
+        "footwork": {
+            "score": 97.25,
+            "status": "valid",
+            "grade": "Advanced / Elite Execution",
+            "included_metrics": [
+                "front_foot_direction",
+                "stride_length"
+            ],
+            "excluded_metrics": [],
+            "renormalized_weight_sum": 1.0,
+            "category_name": "Footwork",
+            "score_display": "97.25 / 100",
+            "feedback": "Category score 97.25/100"
+        },
+        "head_position": {
+            "score": 51.01,
+            "status": "valid",
+            "grade": "Developing",
+            "included_metrics": [
+                "head_knee_alignment",
+                "head_stability"
+            ],
+            "excluded_metrics": [],
+            "renormalized_weight_sum": 1.0,
+            "category_name": "Head Position",
+            "score_display": "51.01 / 100",
+            "feedback": "Category score 51.01/100"
+        },
+        "swing_control": {
+            "score": 70.06,
+            "status": "valid",
+            "grade": "Intermediate",
+            "included_metrics": [
+                "front_elbow_angle",
+                "shoulder_rotation",
+                "hip_rotation"
+            ],
+            "excluded_metrics": [],
+            "renormalized_weight_sum": 1.0,
+            "category_name": "Swing Control",
+            "score_display": "70.06 / 100",
+            "feedback": "Category score 70.06/100"
+        },
+        "balance": {
+            "score": 56.75,
+            "status": "valid",
+            "grade": "Developing",
+            "included_metrics": [
+                "spine_lean",
+                "head_stability"
+            ],
+            "excluded_metrics": [],
+            "renormalized_weight_sum": 1.0,
+            "category_name": "Balance",
+            "score_display": "56.75 / 100",
+            "feedback": "Category score 56.75/100"
+        },
+        "follow_through": {
+            "score": 63.61,
+            "status": "valid",
+            "grade": "Intermediate",
+            "included_metrics": [
+                "follow_through_angle",
+                "follow_through_quality"
+            ],
+            "excluded_metrics": [],
+            "renormalized_weight_sum": 1.0,
+            "category_name": "Follow Through",
+            "score_display": "63.61 / 100",
+            "feedback": "Category score 63.61/100"
+        }
+    },
+    "metric_scores": {
+        "front_elbow_angle": {
+            "score": 66.51,
+            "raw_value": 70.21,
+            "status": "valid",
+            "assessment": "Low Elevation Range (P10-P25)",
+            "reference_mean": 120.451,
+            "reference_median": 133.315,
+            "reference_p10": 57.19,
+            "reference_p90": 174.227,
+            "unit": "\u00b0"
+        },
+        "spine_lean": {
+            "score": 29.25,
+            "raw_value": 35.4,
+            "status": "valid",
+            "assessment": "High Deviation (> P90)",
+            "reference_mean": 18.245,
+            "reference_median": 16.46,
+            "reference_p10": 9.2,
+            "reference_p90": 27.951,
+            "unit": "\u00b0"
+        },
+        "head_knee_alignment": {
+            "score": 19.69,
+            "raw_value": 1.16,
+            "status": "valid",
+            "assessment": "High Deviation (> P90)",
+            "reference_mean": 0.2458,
+            "reference_median": 0.2286,
+            "reference_p10": 0.0604,
+            "reference_p90": 0.4848,
+            "unit": "norm"
+        },
+        "front_foot_direction": {
+            "score": 97.92,
+            "raw_value": 156.68,
+            "status": "valid",
+            "assessment": "Core Reference Range (P25-P75)",
+            "reference_mean": 156.213,
+            "reference_median": 154.465,
+            "reference_p10": 143.232,
+            "reference_p90": 169.862,
+            "unit": "\u00b0"
+        },
+        "shoulder_rotation": {
+            "score": 96.63,
+            "raw_value": 152.85,
+            "status": "valid",
+            "assessment": "Core Reference Range (P25-P75)",
+            "reference_mean": 143.946,
+            "reference_median": 147.085,
+            "reference_p10": 123.189,
+            "reference_p90": 166.702,
+            "unit": "\u00b0"
+        },
+        "hip_rotation": {
+            "score": 50.59,
+            "raw_value": 165.41,
+            "status": "valid",
+            "assessment": "Above Reference P90 Range",
+            "reference_mean": 144.378,
+            "reference_median": 149.08,
+            "reference_p10": 115.144,
+            "reference_p90": 162.028,
+            "unit": "\u00b0"
+        },
+        "stride_length": {
+            "score": 96.25,
+            "raw_value": 0.47,
+            "status": "valid",
+            "assessment": "Core Reference Range (P25-P75)",
+            "reference_mean": 0.5542,
+            "reference_median": 0.514,
+            "reference_p10": 0.3764,
+            "reference_p90": 0.7756,
+            "unit": "norm"
+        },
+        "head_stability": {
+            "score": 98.0,
+            "raw_value": 0.57,
+            "status": "valid",
+            "assessment": "Optimal Low Value (<= Median)",
+            "reference_mean": 24.6337,
+            "reference_median": 14.6674,
+            "reference_p10": 9.5351,
+            "reference_p90": 39.5605,
+            "unit": "norm"
+        },
+        "follow_through_angle": {
+            "score": 63.61,
+            "raw_value": 76.97,
+            "status": "valid",
+            "assessment": "Low Elevation Range (P10-P25)",
+            "reference_mean": 132.584,
+            "reference_median": 149.95,
+            "reference_p10": 61.358,
+            "reference_p90": 171.354,
+            "unit": "\u00b0"
+        },
+        "follow_through_quality": {
+            "score": 63.61,
+            "raw_value": 51.31,
+            "status": "valid",
+            "assessment": "Low Elevation Range (P10-P25)",
+            "reference_mean": 83.447,
+            "reference_median": 98.125,
+            "reference_p10": 40.908,
+            "reference_p90": 100.0,
+            "unit": "norm"
+        },
+        "rotary_shoulder_diff": {
+            "score": null,
+            "raw_value": null,
+            "status": "N/A",
+            "assessment": "Metric N/A or occluded (excluded from weighting)",
+            "reference_mean": 25.399,
+            "reference_median": 18.745,
+            "reference_p10": 10.289,
+            "reference_p90": 46.16,
+            "unit": "norm"
+        },
+        "wrist_horizontal_travel": {
+            "score": null,
+            "raw_value": null,
+            "status": "N/A",
+            "assessment": "Metric N/A or occluded (excluded from weighting)",
+            "reference_mean": 3.9829,
+            "reference_median": 3.9157,
+            "reference_p10": 1.9782,
+            "reference_p90": 5.6728,
+            "unit": "norm"
+        },
+        "wrist_vertical_travel": {
+            "score": null,
+            "raw_value": null,
+            "status": "N/A",
+            "assessment": "Metric N/A or occluded (excluded from weighting)",
+            "reference_mean": 6.2063,
+            "reference_median": 5.5213,
+            "reference_p10": 5.0058,
+            "reference_p90": 8.6867,
+            "unit": "norm"
+        }
+    },
+    "shot_specific_metrics": {
+        "cover_direction_alignment": 156.6769628662991,
+        "bat_extension_index": 0.39004320000052506,
+        "offside_flow_vector": 100.03
+    },
+    "coaching_feedback": {
+        "key_strengths": [
+            "Excellent Footwork (97.25/100) reflecting high consistency with calibrated reference athletes."
+        ],
+        "areas_for_improvement": [
+            "Suboptimal Head Position (51.01/100) below reference baseline.",
+            "Suboptimal Balance (56.75/100) below reference baseline.",
+            "Suboptimal Follow Through (63.61/100) below reference baseline."
+        ],
+        "coaching_recommendations": [
+            "Elevate the leading left elbow at contact to achieve higher bat leverage and keep the stroke along the ground."
+        ]
+    },
+    "bat_tracking": {
+        "status": "AVAILABLE",
+        "coverage_pct": 100.0,
+        "detected_frames": 272,
+        "continuity": "Good",
+        "confidence": 0.52
+    },
+    "ball_tracking": {
+        "status": "AVAILABLE",
+        "coverage_pct": 13.0,
+        "detected_frames": 36,
+        "continuity": "Good",
+        "confidence": 0.47
+    },
+    "quality": {
+        "pose_quality": 1.0,
+        "bat_quality": 1.0,
+        "ball_quality": 0.13
+    },
+    "impact_analysis": {
+        "biomechanical_impact_frame": 205,
+        "contact_window": [
+            202,
+            208
+        ]
+    },
+    "shot_analysis": {
+        "predicted_shot": "cover_drive",
+        "decision": "HIGH_CONFIDENCE",
+        "confidence": 0.99,
+        "confidence_level": "High Confidence",
+        "top_candidate": "cover_drive",
+        "top_probability": 0.99,
+        "top_class_margin": 0.9839,
+        "reference_similarity": 0.341,
+        "feature_coverage": 1.0,
+        "class_probabilities": {
+            "cover_drive": 0.99,
+            "straight_drive": 0.0061,
+            "pull_shot": 0.0039
+        },
+        "class_scores": {
+            "cover_drive": 0.99,
+            "straight_drive": 0.0061,
+            "pull_shot": 0.0039
+        },
+        "classification_status": "classified",
+        "classification_reason": null,
+        "status": "classified",
+        "feature_evidence": {
+            "top_candidate": "cover_drive",
+            "runner_up": "straight_drive",
+            "margin": 0.9839,
+            "min_distance": 1.931,
+            "reference_similarity": 0.341,
+            "key_features": [
+                "front_foot_direction: 156.68 (Ref Mean: 156.21, Z: 0.04)",
+                "head_stability: 21.43 (Ref Mean: 24.63, Z: -0.06)",
+                "follow_through_angle: 123.95 (Ref Mean: 132.58, Z: -0.24)",
+                "shoulder_rotation: 152.85 (Ref Mean: 143.95, Z: 0.45)"
+            ]
+        },
+        "reason": "Biomechanical trajectory matches calibrated cover_drive reference profile with 98.4% class separation margin."
+    },
+    "contact_analysis": {
+        "status": "UNKNOWN",
+        "confidence": 41.0,
+        "confidence_score": 41.0,
+        "evidence_score": 41.0,
+        "biomechanical_impact_frame": 205,
+        "pose_impact_frame": 205,
+        "visual_contact_frame": null,
+        "contact_frame": null,
+        "estimated_frame": null,
+        "frame_difference": null,
+        "bat_tracking_status": "AVAILABLE",
+        "ball_tracking_status": "AVAILABLE",
+        "bat_tracking_available": true,
+        "ball_tracking_available": false,
+        "evidence_coverage": 0.2,
+        "signals": {
+            "spatial_proximity": null,
+            "temporal_alignment": null,
+            "relative_velocity": null,
+            "ball_deflection": null,
+            "bat_consistency": 0.51
+        },
+        "reason": "Ball tracking unavailable around the biomechanical impact window (insufficient continuous trajectory evidence).",
+        "bat_ball_distance_px": null,
+        "spatial_score": null,
+        "temporal_score": null,
+        "relative_velocity_score": null,
+        "ball_trajectory_change_score": null,
+        "bat_trajectory_consistency_score": 0.51,
+        "final_contact_score": 41.0
+    },
+    "metric_evaluations": {
+        "front_elbow_angle": {
+            "name": "Front Elbow Angle",
+            "user_value_display": "70.21 \u00b0",
+            "metric_score_display": "66.51 / 100",
+            "metric_score": 66.51,
+            "assessment": "Low Elevation Range (P10-P25)",
+            "reference_mean": 120.451,
+            "reference_p10": 57.19,
+            "reference_p90": 174.227,
+            "reference_median": 133.315,
+            "deviation_from_mean": 50.24
+        },
+        "spine_lean": {
+            "name": "Spine Lean",
+            "user_value_display": "35.4 \u00b0",
+            "metric_score_display": "29.25 / 100",
+            "metric_score": 29.25,
+            "assessment": "High Deviation (> P90)",
+            "reference_mean": 18.245,
+            "reference_p10": 9.2,
+            "reference_p90": 27.951,
+            "reference_median": 16.46,
+            "deviation_from_mean": 17.15
+        },
+        "head_knee_alignment": {
+            "name": "Head Knee Alignment",
+            "user_value_display": "1.16 norm",
+            "metric_score_display": "19.69 / 100",
+            "metric_score": 19.69,
+            "assessment": "High Deviation (> P90)",
+            "reference_mean": 0.2458,
+            "reference_p10": 0.0604,
+            "reference_p90": 0.4848,
+            "reference_median": 0.2286,
+            "deviation_from_mean": 0.91
+        },
+        "front_foot_direction": {
+            "name": "Front Foot Direction",
+            "user_value_display": "156.68 \u00b0",
+            "metric_score_display": "97.92 / 100",
+            "metric_score": 97.92,
+            "assessment": "Core Reference Range (P25-P75)",
+            "reference_mean": 156.213,
+            "reference_p10": 143.232,
+            "reference_p90": 169.862,
+            "reference_median": 154.465,
+            "deviation_from_mean": 0.47
+        },
+        "shoulder_rotation": {
+            "name": "Shoulder Rotation",
+            "user_value_display": "152.85 \u00b0",
+            "metric_score_display": "96.63 / 100",
+            "metric_score": 96.63,
+            "assessment": "Core Reference Range (P25-P75)",
+            "reference_mean": 143.946,
+            "reference_p10": 123.189,
+            "reference_p90": 166.702,
+            "reference_median": 147.085,
+            "deviation_from_mean": 8.9
+        },
+        "hip_rotation": {
+            "name": "Hip Rotation",
+            "user_value_display": "165.41 \u00b0",
+            "metric_score_display": "50.59 / 100",
+            "metric_score": 50.59,
+            "assessment": "Above Reference P90 Range",
+            "reference_mean": 144.378,
+            "reference_p10": 115.144,
+            "reference_p90": 162.028,
+            "reference_median": 149.08,
+            "deviation_from_mean": 21.03
+        },
+        "stride_length": {
+            "name": "Stride Length",
+            "user_value_display": "0.47 norm",
+            "metric_score_display": "96.25 / 100",
+            "metric_score": 96.25,
+            "assessment": "Core Reference Range (P25-P75)",
+            "reference_mean": 0.5542,
+            "reference_p10": 0.3764,
+            "reference_p90": 0.7756,
+            "reference_median": 0.514,
+            "deviation_from_mean": 0.08
+        },
+        "head_stability": {
+            "name": "Head Stability",
+            "user_value_display": "0.57 norm",
+            "metric_score_display": "98.0 / 100",
+            "metric_score": 98.0,
+            "assessment": "Optimal Low Value (<= Median)",
+            "reference_mean": 24.6337,
+            "reference_p10": 9.5351,
+            "reference_p90": 39.5605,
+            "reference_median": 14.6674,
+            "deviation_from_mean": 24.06
+        },
+        "follow_through_angle": {
+            "name": "Follow Through Angle",
+            "user_value_display": "76.97 \u00b0",
+            "metric_score_display": "63.61 / 100",
+            "metric_score": 63.61,
+            "assessment": "Low Elevation Range (P10-P25)",
+            "reference_mean": 132.584,
+            "reference_p10": 61.358,
+            "reference_p90": 171.354,
+            "reference_median": 149.95,
+            "deviation_from_mean": 55.61
+        },
+        "follow_through_quality": {
+            "name": "Follow Through Quality",
+            "user_value_display": "51.31 norm",
+            "metric_score_display": "63.61 / 100",
+            "metric_score": 63.61,
+            "assessment": "Low Elevation Range (P10-P25)",
+            "reference_mean": 83.447,
+            "reference_p10": 40.908,
+            "reference_p90": 100.0,
+            "reference_median": 98.125,
+            "deviation_from_mean": 32.14
+        },
+        "rotary_shoulder_diff": {
+            "name": "Rotary Shoulder Diff",
+            "user_value_display": "N/A",
+            "metric_score_display": "N/A",
+            "metric_score": null,
+            "assessment": "Metric N/A or occluded (excluded from weighting)",
+            "reference_mean": 25.399,
+            "reference_p10": 10.289,
+            "reference_p90": 46.16,
+            "reference_median": 18.745,
+            "deviation_from_mean": null
+        },
+        "wrist_horizontal_travel": {
+            "name": "Wrist Horizontal Travel",
+            "user_value_display": "N/A",
+            "metric_score_display": "N/A",
+            "metric_score": null,
+            "assessment": "Metric N/A or occluded (excluded from weighting)",
+            "reference_mean": 3.9829,
+            "reference_p10": 1.9782,
+            "reference_p90": 5.6728,
+            "reference_median": 3.9157,
+            "deviation_from_mean": null
+        },
+        "wrist_vertical_travel": {
+            "name": "Wrist Vertical Travel",
+            "user_value_display": "N/A",
+            "metric_score_display": "N/A",
+            "metric_score": null,
+            "assessment": "Metric N/A or occluded (excluded from weighting)",
+            "reference_mean": 6.2063,
+            "reference_p10": 5.0058,
+            "reference_p90": 8.6867,
+            "reference_median": 5.5213,
+            "deviation_from_mean": null
+        }
+    }
+}

@@ -1,0 +1,25 @@
+AthleteRise - AI-Powered Cricket Analytics Report
+====================================================
+
+Overall Skill Grade: Intermediate
+
+Footwork:
+  Score: 0.00/10
+  Feedback: No data
+
+Head Position:
+  Score: 10.00/10
+  Feedback: Good head position over the front knee.
+
+Swing Control:
+  Score: 5.07/10
+  Feedback: Work on maintaining a high elbow.
+
+Balance:
+  Score: 0.00/10
+  Feedback: No data
+
+Follow Through:
+  Score: 0.00/10
+  Feedback: No data
+

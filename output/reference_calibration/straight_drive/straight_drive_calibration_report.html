@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AthleteRise - Straight Drive Reference Calibration Report</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 30px; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; border-bottom: 1px solid #ecf0f1; padding-bottom: 8px; }
+        .badge { display: inline-block; padding: 6px 12px; background: #e74c3c; color: white; border-radius: 4px; font-weight: bold; font-size: 14px; }
+        .badge-provisional { background: #f39c12; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; }
+        .card { background: #f1f2f6; padding: 15px; border-radius: 6px; border-left: 4px solid #3498db; }
+        .card h4 { margin: 0 0 8px 0; color: #7f8c8d; font-size: 13px; text-transform: uppercase; }
+        .card p { margin: 0; font-size: 22px; font-weight: bold; color: #2c3e50; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14px; }
+        th, td { padding: 10px 12px; border: 1px solid #dfe6e9; text-align: left; }
+        th { background-color: #3498db; color: white; font-weight: 600; }
+        tr:nth-child(even) { background-color: #f8f9fa; }
+        .warning-box { background: #fff3cd; color: #856404; padding: 15px; border-radius: 6px; border-left: 5px solid #ffeba2; margin: 20px 0; }
+        img { max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 20px 0; }
+        .footer { text-align: center; margin-top: 40px; color: #95a5a6; font-size: 12px; border-top: 1px solid #ecf0f1; padding-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏏 AthleteRise: Straight Drive Reference Calibration Report</h1>
+        <p><strong>Shot Type:</strong> Straight Drive | <strong>Handedness:</strong> MIXED</p>
+        
+        <div class="warning-box">
+            <strong>⚠️ Reference Status Notice:</strong> <span class="badge badge-provisional">Provisional</span><br>
+            This calibration baseline was calculated from <strong>10</strong> Straight Drive reference videos. It serves as a project-specific empirical reference dataset, not a universal medical standard.
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h4>Total Videos Processed</h4>
+                <p>10</p>
+            </div>
+            <div class="card">
+                <h4>Valid Calibration Samples</h4>
+                <p>10</p>
+            </div>
+            <div class="card">
+                <h4>Excluded Videos</h4>
+                <p>0</p>
+            </div>
+            <div class="card">
+                <h4>Statistical Source</h4>
+                <p>Empirical Reference</p>
+            </div>
+            <div class="card">
+                <h4>Reference Range Method</h4>
+                <p>P10 - P90</p>
+            </div>
+        </div>
+
+        <div class="warning-box" style="background: #e8f4f8; color: #1b4f72; border-left: 5px solid #2980b9;">
+            <strong>📌 Calibration Data Notice:</strong> Calculated from available reference/calibration data across all <strong>10</strong> reference videos.
+            These empirical statistical distributions (Mean, Median, Std Dev, Variance, Min, Max, Q1, Q3, IQR, P10, P90) are derived purely from reference video distributions and remain separate from application scoring thresholds.
+        </div>
+
+        <h2>📊 Biomechanical Metric Statistical Summary (Empirical Reference Calibration)</h2>
+        <p style="color: #7f8c8d; font-size: 13px;"><em>Each biomechanical metric is treated independently across all reference videos.</em></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Metric</th>
+                    <th>Valid Samples</th>
+                    <th>Mean</th>
+                    <th>Median</th>
+                    <th>Std Dev</th>
+                    <th>Variance</th>
+                    <th>Min</th>
+                    <th>Max</th>
+                    <th>Q1 (P25)</th>
+                    <th>Q3 (P75)</th>
+                    <th>IQR</th>
+                    <th>P10</th>
+                    <th>P90</th>
+                    <th>P10-P90 Range</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Front Elbow Angle (°)</strong></td>
+                    <td>10</td>
+                    <td>140.46</td>
+                    <td>140.57</td>
+                    <td>16.45</td>
+                    <td>270.46</td>
+                    <td>99.98</td>
+                    <td>159.97</td>
+                    <td>136.00</td>
+                    <td>153.82</td>
+                    <td>17.82</td>
+                    <td>128.89</td>
+                    <td>157.53</td>
+                    <td><strong>128.89 - 157.53</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Spine Lean Tilt (°)</strong></td>
+                    <td>10</td>
+                    <td>10.70</td>
+                    <td>11.37</td>
+                    <td>5.93</td>
+                    <td>35.20</td>
+                    <td>1.95</td>
+                    <td>21.21</td>
+                    <td>6.31</td>
+                    <td>14.77</td>
+                    <td>8.46</td>
+                    <td>2.35</td>
+                    <td>17.22</td>
+                    <td><strong>2.35 - 17.22</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Head-Knee Alignment (norm)</strong></td>
+                    <td>10</td>
+                    <td>0.11</td>
+                    <td>0.11</td>
+                    <td>0.07</td>
+                    <td>0.01</td>
+                    <td>0.00</td>
+                    <td>0.24</td>
+                    <td>0.05</td>
+                    <td>0.16</td>
+                    <td>0.11</td>
+                    <td>0.01</td>
+                    <td>0.18</td>
+                    <td><strong>0.01 - 0.18</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Front Foot Direction (°)</strong></td>
+                    <td>10</td>
+                    <td>167.70</td>
+                    <td>169.12</td>
+                    <td>7.28</td>
+                    <td>53.00</td>
+                    <td>152.67</td>
+                    <td>178.34</td>
+                    <td>164.71</td>
+                    <td>172.50</td>
+                    <td>7.79</td>
+                    <td>158.53</td>
+                    <td>174.29</td>
+                    <td><strong>158.53 - 174.29</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Shoulder Rotation (°)</strong></td>
+                    <td>10</td>
+                    <td>150.26</td>
+                    <td>154.26</td>
+                    <td>16.91</td>
+                    <td>286.04</td>
+                    <td>121.50</td>
+                    <td>170.24</td>
+                    <td>138.95</td>
+                    <td>165.22</td>
+                    <td>26.27</td>
+                    <td>123.97</td>
+                    <td>167.04</td>
+                    <td><strong>123.97 - 167.04</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Hip Rotation (°)</strong></td>
+                    <td>10</td>
+                    <td>160.20</td>
+                    <td>165.91</td>
+                    <td>15.44</td>
+                    <td>238.25</td>
+                    <td>124.23</td>
+                    <td>176.67</td>
+                    <td>156.12</td>
+                    <td>169.88</td>
+                    <td>13.76</td>
+                    <td>139.87</td>
+                    <td>174.47</td>
+                    <td><strong>139.87 - 174.47</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Stride Length (norm)</strong></td>
+                    <td>10</td>
+                    <td>0.67</td>
+                    <td>0.57</td>
+                    <td>0.29</td>
+                    <td>0.09</td>
+                    <td>0.25</td>
+                    <td>1.19</td>
+                    <td>0.47</td>
+                    <td>0.78</td>
+                    <td>0.30</td>
+                    <td>0.41</td>
+                    <td>1.18</td>
+                    <td><strong>0.41 - 1.18</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Head Stability (norm)</strong></td>
+                    <td>10</td>
+                    <td>65.02</td>
+                    <td>24.27</td>
+                    <td>86.82</td>
+                    <td>7537.55</td>
+                    <td>8.96</td>
+                    <td>293.94</td>
+                    <td>16.68</td>
+                    <td>49.41</td>
+                    <td>32.73</td>
+                    <td>9.68</td>
+                    <td>170.23</td>
+                    <td><strong>9.68 - 170.23</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Follow-Through Angle (°)</strong></td>
+                    <td>10</td>
+                    <td>130.27</td>
+                    <td>128.58</td>
+                    <td>34.21</td>
+                    <td>1170.22</td>
+                    <td>63.12</td>
+                    <td>178.98</td>
+                    <td>107.94</td>
+                    <td>160.38</td>
+                    <td>52.44</td>
+                    <td>94.96</td>
+                    <td>166.01</td>
+                    <td><strong>94.96 - 166.01</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Follow-Through Quality (0-100)</strong></td>
+                    <td>10</td>
+                    <td>82.73</td>
+                    <td>85.72</td>
+                    <td>18.44</td>
+                    <td>340.19</td>
+                    <td>42.08</td>
+                    <td>100.00</td>
+                    <td>71.96</td>
+                    <td>100.00</td>
+                    <td>28.04</td>
+                    <td>63.31</td>
+                    <td>100.00</td>
+                    <td><strong>63.31 - 100.00</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Rotary Shoulder Diff (°)</strong></td>
+                    <td>10</td>
+                    <td>22.97</td>
+                    <td>19.62</td>
+                    <td>20.66</td>
+                    <td>426.65</td>
+                    <td>2.43</td>
+                    <td>65.46</td>
+                    <td>7.70</td>
+                    <td>20.12</td>
+                    <td>12.41</td>
+                    <td>3.79</td>
+                    <td>59.16</td>
+                    <td><strong>3.79 - 59.16</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Wrist Horizontal Travel (norm)</strong></td>
+                    <td>10</td>
+                    <td>3.40</td>
+                    <td>3.31</td>
+                    <td>1.40</td>
+                    <td>1.95</td>
+                    <td>1.65</td>
+                    <td>6.71</td>
+                    <td>2.36</td>
+                    <td>3.78</td>
+                    <td>1.42</td>
+                    <td>2.13</td>
+                    <td>4.85</td>
+                    <td><strong>2.13 - 4.85</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Wrist Vertical Travel (norm)</strong></td>
+                    <td>10</td>
+                    <td>5.44</td>
+                    <td>5.35</td>
+                    <td>1.13</td>
+                    <td>1.27</td>
+                    <td>3.93</td>
+                    <td>7.63</td>
+                    <td>4.52</td>
+                    <td>6.07</td>
+                    <td>1.55</td>
+                    <td>4.27</td>
+                    <td>6.88</td>
+                    <td><strong>4.27 - 6.88</strong></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>📦 Empirical Biomechanical Metric Box Plots</h2>
+        <p style="color: #7f8c8d; font-size: 13px;"><em>Visualizing central tendency (median & mean), spread (IQR box Q1–Q3), variability (whiskers), and potential outliers across reference videos.</em></p>
+        <img src="straight_drive_boxplots.png" alt="Biomechanical Metric Box Plots" onerror="this.style.display='none'">
+
+        <h2>📈 Visualization Dashboard (Intervals & Correlations)</h2>
+        <img src="straight_drive_distribution.png" alt="Distribution Plots">
+
+        <h2>📹 Video Dataset Quality & Validation</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Video File</th>
+                    <th>Status</th>
+                    <th>Stance</th>
+                    <th>Duration</th>
+                    <th>FPS</th>
+                    <th>Frames</th>
+                    <th>Resolution</th>
+                    <th>Pose Detection %</th>
+                    <th>Contact Frame</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>straight_0101.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Right</td>
+                    <td>3.0s</td>
+                    <td>25</td>
+                    <td>75</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>60</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>straight_0102.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Left</td>
+                    <td>3.4s</td>
+                    <td>25</td>
+                    <td>85</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>44</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>straight_0103.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Right</td>
+                    <td>2.2s</td>
+                    <td>25</td>
+                    <td>55</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>16</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>straight_0104.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Right</td>
+                    <td>2.92s</td>
+                    <td>25</td>
+                    <td>73</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>15</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>straight_0105.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Right</td>
+                    <td>3.6s</td>
+                    <td>25</td>
+                    <td>90</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>62</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>straight_0106.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Right</td>
+                    <td>3.6s</td>
+                    <td>25</td>
+                    <td>90</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>18</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>straight_0107.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Right</td>
+                    <td>3.0s</td>
+                    <td>25</td>
+                    <td>75</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>43</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>straight_0108.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Right</td>
+                    <td>3.96s</td>
+                    <td>25</td>
+                    <td>99</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>33</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>straight_0109.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Right</td>
+                    <td>4.76s</td>
+                    <td>25</td>
+                    <td>119</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>67</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>straight_0110.avi</strong></td>
+                    <td><span style="color: #2ecc71; font-weight: bold;">VALID</span></td>
+                    <td>Right</td>
+                    <td>3.2s</td>
+                    <td>25</td>
+                    <td>80</td>
+                    <td>1280x720</td>
+                    <td>100.0%</td>
+                    <td>39</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>🔍 Outlier Diagnostic Report (IQR transparent method)</h2><h3>Front Elbow Angle (°) Outliers</h3><ul><li><strong>straight_0108.avi</strong>: Raw Value = 99.98 (Outside IQR bounds [109.27, 180.56])</li></ul><h3>Front Foot Direction (°) Outliers</h3><ul><li><strong>straight_0103.avi</strong>: Raw Value = 152.67 (Outside IQR bounds [153.03, 184.18])</li></ul><h3>Hip Rotation (°) Outliers</h3><ul><li><strong>straight_0103.avi</strong>: Raw Value = 124.23 (Outside IQR bounds [135.49, 190.51])</li></ul><h3>Head Stability (norm) Outliers</h3><ul><li><strong>straight_0104.avi</strong>: Raw Value = 293.9416 (Outside IQR bounds [-32.42, 98.51])</li><li><strong>straight_0106.avi</strong>: Raw Value = 156.4888 (Outside IQR bounds [-32.42, 98.51])</li></ul><h3>Rotary Shoulder Diff (°) Outliers</h3><ul><li><strong>straight_0109.avi</strong>: Raw Value = 58.46 (Outside IQR bounds [-10.92, 38.74])</li><li><strong>straight_0110.avi</strong>: Raw Value = 65.46 (Outside IQR bounds [-10.92, 38.74])</li></ul><h3>Wrist Horizontal Travel (norm) Outliers</h3><ul><li><strong>straight_0105.avi</strong>: Raw Value = 6.7114 (Outside IQR bounds [0.23, 5.91])</li></ul>
+        <div class="footer">
+            AthleteRise AI-Powered Cricket Analytics Platform &bull; Data-Driven Calibration Module
+        </div>
+    </div>
+</body>
+</html>

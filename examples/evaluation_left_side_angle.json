@@ -1,0 +1,23 @@
+{
+    "footwork": {
+        "score": 0,
+        "feedback": "No data"
+    },
+    "head_position": {
+        "score": 10.0,
+        "feedback": "Good head position over the front knee."
+    },
+    "swing_control": {
+        "score": 8.811881188118813,
+        "feedback": "Excellent swing control."
+    },
+    "balance": {
+        "score": 0,
+        "feedback": "No data"
+    },
+    "follow_through": {
+        "score": 0,
+        "feedback": "No data"
+    },
+    "skill_grade": "Advanced"
+}

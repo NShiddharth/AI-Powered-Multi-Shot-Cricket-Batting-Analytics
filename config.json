@@ -1,0 +1,34 @@
+{
+    "elbow_angle_threshold": 120,
+    "head_knee_distance_threshold": 50,
+    "foot_angle_lower_threshold": 45,
+    "foot_angle_upper_threshold": 135,
+    "spine_lean_threshold": 30,
+    "shots": {
+        "cover_drive": {
+            "name": "Cover Drive",
+            "reference_path": "data/reference_videos/cover_drive",
+            "reference_file": "output/reference_calibration/cover_drive/cover_drive_reference.json"
+        },
+        "straight_drive": {
+            "name": "Straight Drive",
+            "reference_path": "data/reference_videos/straight_drive",
+            "reference_file": "output/reference_calibration/straight_drive/straight_drive_reference.json"
+        },
+        "pull_shot": {
+            "name": "Pull Shot",
+            "reference_path": "data/reference_videos/pull_shot",
+            "reference_file": "output/reference_calibration/pull_shot/pull_shot_reference.json"
+        }
+    },
+    "classifier": {
+        "confidence_threshold": 0.50,
+        "margin_threshold": 0.12
+    },
+    "contact_detection": {
+        "enabled": true,
+        "unknown_threshold": 0.50,
+        "spatial_proximity_threshold": 75.0,
+        "deflection_threshold_deg": 25.0
+    }
+}

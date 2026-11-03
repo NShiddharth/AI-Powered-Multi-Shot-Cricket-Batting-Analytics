@@ -1,0 +1,11 @@
+video_id,filename,status,handedness,front_elbow_angle,spine_lean,head_knee_alignment,front_foot_direction,shoulder_rotation,hip_rotation,stride_length,head_stability,follow_through_angle,follow_through_quality
+pull_0111,pull_0111.avi,valid,left,73.48,5.04,0.1591,173.29,171.91,171.01,0.4156,47.5728,136.94,91.29
+pull_0112,pull_0112.avi,valid,left,119.26,21.06,0.0521,175.74,165.76,160.5,0.8548,26.7165,125.22,83.48
+pull_0113,pull_0113.avi,valid,right,74.13,7.11,0.28,137.36,179.76,164.19,0.7891,30.6638,86.91,57.94
+pull_0114,pull_0114.avi,valid,right,106.89,7.12,0.0568,167.68,165.69,167.84,0.3307,17.6313,84.88,56.59
+pull_0115,pull_0115.avi,valid,right,157.48,30.73,0.099,162.48,162.14,142.65,0.2292,12.2519,132.71,88.47
+pull_0116,pull_0116.avi,valid,left,169.22,10.0,0.2888,120.02,168.78,161.13,0.6751,39.5588,146.73,97.82
+pull_0117,pull_0117.avi,valid,left,37.06,11.95,0.1602,161.11,163.16,162.06,0.7321,9.8165,156.43,100.0
+pull_0118,pull_0118.avi,valid,right,170.37,9.14,0.222,159.33,176.9,145.8,0.7144,28.9408,160.94,100.0
+pull_0119,pull_0119.avi,valid,right,175.41,10.0,0.0399,170.17,155.73,172.57,0.8168,23.5842,139.46,92.97
+pull_0120,pull_0120.avi,valid,right,180.0,0.33,0.0601,153.45,180.0,104.46,0.2037,47.1762,180.0,100.0

@@ -1,0 +1,73 @@
+============================================================
+              ATHLETERISE — BATTING ANALYSIS               
+============================================================
+
+Shot Classification Summary
+---------------------------
+Detected Shot:         Cover Drive
+Classification Status: High Confidence
+Top Candidate:         Cover Drive (99.0%)
+Top-Class Margin:      98.4 percentage points
+Reference Similarity:  34.1%
+Feature Coverage:      100%
+Decision Reason:       Biomechanical trajectory matches calibrated cover_drive reference profile with 98.4% class separation margin.
+
+Class Probabilities:
+  - Cover Drive     : 99.0%
+  - Straight Drive  : 0.6%
+  - Pull Shot       : 0.4%
+
+Tracking Quality Diagnostics
+-----------------------------
+Bat Tracking:  AVAILABLE (Coverage: 100.0%, Continuity: Good)
+Ball Tracking: AVAILABLE (Coverage: 13.0%, Continuity: Good)
+
+Bat–Ball Contact Analysis
+-------------------------
+Visual Contact Status:       Unknown
+Contact Evidence Score:      41.0 / 100
+Visual Contact Frame:        N/A
+Biomechanical Impact Frame:  Frame 205
+Frame Difference:            N/A
+Contact Assessment Reason:   Ball tracking unavailable around the biomechanical impact window (insufficient continuous trajectory evidence).
+
+General Biomechanical Analysis (Monocular Pose Tracking)
+---------------------------------------------------------
+  * Front Elbow Angle           : 70.21 °      (Score: 66.51 / 100) [Low Elevation Range (P10-P25)]
+  * Spine Lean                  : 35.4 °       (Score: 29.25 / 100) [High Deviation (> P90)]
+  * Head Knee Alignment         : 1.16 norm    (Score: 19.69 / 100) [High Deviation (> P90)]
+  * Front Foot Direction        : 156.68 °     (Score: 97.92 / 100) [Core Reference Range (P25-P75)]
+  * Shoulder Rotation           : 152.85 °     (Score: 96.63 / 100) [Core Reference Range (P25-P75)]
+  * Hip Rotation                : 165.41 °     (Score: 50.59 / 100) [Above Reference P90 Range]
+  * Stride Length               : 0.47 norm    (Score: 96.25 / 100) [Core Reference Range (P25-P75)]
+  * Head Stability              : 0.57 norm    (Score: 98.0 / 100) [Optimal Low Value (<= Median)]
+  * Follow Through Angle        : 76.97 °      (Score: 63.61 / 100) [Low Elevation Range (P10-P25)]
+  * Follow Through Quality      : 51.31 norm   (Score: 63.61 / 100) [Low Elevation Range (P10-P25)]
+  * Rotary Shoulder Diff        : N/A          (Score: N/A) [Metric N/A or occluded (excluded from weighting)]
+  * Wrist Horizontal Travel     : N/A          (Score: N/A) [Metric N/A or occluded (excluded from weighting)]
+  * Wrist Vertical Travel       : N/A          (Score: N/A) [Metric N/A or occluded (excluded from weighting)]
+
+Overall Technique Score
+-----------------------
+68.06 / 100
+
+Skill Grade
+-----------
+Intermediate
+
+Category Breakdown
+------------------
+  - Footwork          : 97.25 / 100
+  - Head Position     : 51.01 / 100
+  - Swing Control     : 70.06 / 100
+  - Balance           : 56.75 / 100
+  - Follow Through    : 63.61 / 100
+
+Coaching Insights & Recommendations
+------------------------------------
+Key Strengths:
+  + Excellent Footwork (97.25/100) reflecting high consistency with calibrated reference athletes.
+Recommendations:
+  * Elevate the leading left elbow at contact to achieve higher bat leverage and keep the stroke along the ground.
+
+============================================================

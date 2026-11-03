@@ -1,0 +1,11 @@
+video_id,filename,status,handedness,front_elbow_angle,spine_lean,head_knee_alignment,front_foot_direction,shoulder_rotation,hip_rotation,stride_length,head_stability,follow_through_angle,follow_through_quality
+cover_0001,cover_0001.avi,valid,left,58.83,6.23,0.2628,167.83,161.93,146.44,0.4989,10.816,156.45,100.0
+cover_0002,cover_0002.avi,valid,right,136.55,9.53,0.0802,155.08,156.8,143.09,0.5291,9.6864,64.3,42.87
+cover_0003,cover_0003.avi,valid,right,173.81,13.38,0.0645,148.5,166.5,150.11,0.2591,26.1441,175.17,100.0
+cover_0004,cover_0004.avi,valid,left,144.98,11.0,0.0238,157.01,168.52,166.33,0.7402,21.1441,134.83,89.89
+cover_0005,cover_0005.avi,valid,right,139.65,10.98,0.1154,168.84,164.96,161.55,0.3917,33.3362,34.88,23.25
+cover_0006,cover_0006.avi,valid,right,177.98,26.9,0.4804,142.71,130.29,116.51,0.5598,95.5796,166.07,100.0
+cover_0007,cover_0007.avi,valid,left,74.3,27.0,0.4491,179.06,100.23,102.85,1.0941,8.1736,123.31,82.21
+cover_0008,cover_0008.avi,valid,right,130.08,36.51,0.5248,153.85,137.37,151.04,0.3894,12.1228,155.53,100.0
+cover_0009,cover_0009.avi,valid,right,42.43,21.38,0.2089,143.29,127.12,148.05,0.4331,15.1277,170.93,100.0
+cover_0010,cover_0010.avi,valid,left,125.9,19.54,0.2482,145.96,125.74,157.81,0.6468,14.207,144.37,96.25

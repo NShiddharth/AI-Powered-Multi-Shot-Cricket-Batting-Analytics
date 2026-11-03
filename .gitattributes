@@ -1,0 +1,19 @@
+# AthleteRise - Git Attributes
+# Text files normalization
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.toml text eol=lf
+
+# Binary media assets
+*.png binary
+*.jpg binary
+*.gif binary
+*.avi binary
+*.mp4 binary
+*.task binary
+
+# Git LFS declaration (optional: activate if adding external files >50MB)
+# *.task filter=lfs diff=lfs merge=lfs -text

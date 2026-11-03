@@ -1,0 +1,12 @@
+Metric                    | Cover Mean | Cover Std  | Straight Mean | Straight Std | Pull Mean  | Pull Std  
+--------------------------------------------------------------------------------
+Front Elbow Angle (°)     | 120.45     | 44.18      | 140.46        | 16.45        | 126.33     | 48.94     
+Spine Lean Tilt (°)       | 18.25      | 9.20       | 10.70         | 5.93         | 11.25      | 8.22      
+Head-Knee Alignment (norm | 0.25       | 0.17       | 0.11          | 0.07         | 0.14       | 0.09      
+Front Foot Direction (°)  | 156.21     | 11.57      | 167.70        | 7.28         | 158.06     | 16.46     
+Shoulder Rotation (°)     | 143.95     | 21.90      | 150.26        | 16.91        | 168.98     | 7.66      
+Hip Rotation (°)          | 144.38     | 18.85      | 160.20        | 15.44        | 155.22     | 19.30     
+Stride Length (norm)      | 0.55       | 0.22       | 0.67          | 0.29         | 0.58       | 0.24      
+Head Stability (norm)     | 24.63      | 24.83      | 65.02         | 86.82        | 28.39      | 12.64     
+Follow-Through Angle (°)  | 132.58     | 44.65      | 130.27        | 34.21        | 135.02     | 28.71     
+Follow-Through Quality (0 | 83.45      | 26.17      | 82.73         | 18.44        | 86.86      | 15.69     

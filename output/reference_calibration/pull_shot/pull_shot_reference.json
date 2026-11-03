@@ -1,0 +1,775 @@
+{
+    "shot_type": "pull_shot",
+    "reference_status": "provisional",
+    "sample_count": 10,
+    "total_videos_processed": 10,
+    "valid_videos_count": 10,
+    "excluded_videos_count": 0,
+    "handedness": "mixed",
+    "handedness_distribution": {
+        "right": 6,
+        "left": 4
+    },
+    "statistics": {
+        "front_elbow_angle": {
+            "name": "Front Elbow Angle (\u00b0)",
+            "valid_samples_count": 10,
+            "mean": 126.33,
+            "median": 138.37,
+            "std": 48.9425,
+            "variance": 2395.3705,
+            "min": 37.06,
+            "max": 180.0,
+            "p10": 69.838,
+            "p25": 82.32,
+            "p50": 138.37,
+            "p75": 170.0825,
+            "p90": 175.869,
+            "iqr": 87.7625,
+            "outliers": [],
+            "reference_range": {
+                "lower": 69.838,
+                "upper": 175.869,
+                "method": "P10-P90"
+            },
+            "q1": 82.32,
+            "q3": 170.0825
+        },
+        "spine_lean": {
+            "name": "Spine Lean Tilt (\u00b0)",
+            "valid_samples_count": 10,
+            "mean": 11.248,
+            "median": 9.57,
+            "std": 8.2206,
+            "variance": 67.5781,
+            "min": 0.33,
+            "max": 30.73,
+            "p10": 4.569,
+            "p25": 7.1125,
+            "p50": 9.57,
+            "p75": 11.4625,
+            "p90": 22.027,
+            "iqr": 4.35,
+            "outliers": [
+                {
+                    "video_id": "pull_0112",
+                    "filename": "pull_0112.avi",
+                    "raw_value": 21.06,
+                    "reason": "Outside IQR bounds [0.59, 17.99]"
+                },
+                {
+                    "video_id": "pull_0115",
+                    "filename": "pull_0115.avi",
+                    "raw_value": 30.73,
+                    "reason": "Outside IQR bounds [0.59, 17.99]"
+                },
+                {
+                    "video_id": "pull_0120",
+                    "filename": "pull_0120.avi",
+                    "raw_value": 0.33,
+                    "reason": "Outside IQR bounds [0.59, 17.99]"
+                }
+            ],
+            "reference_range": {
+                "lower": 4.569,
+                "upper": 22.027,
+                "method": "P10-P90"
+            },
+            "q1": 7.1125,
+            "q3": 11.4625
+        },
+        "head_knee_alignment": {
+            "name": "Head-Knee Alignment (norm)",
+            "valid_samples_count": 10,
+            "mean": 0.1418,
+            "median": 0.129,
+            "std": 0.0905,
+            "variance": 0.0082,
+            "min": 0.0399,
+            "max": 0.2888,
+            "p10": 0.0509,
+            "p25": 0.0576,
+            "p50": 0.129,
+            "p75": 0.2066,
+            "p90": 0.2809,
+            "iqr": 0.1489,
+            "outliers": [],
+            "reference_range": {
+                "lower": 0.0509,
+                "upper": 0.2809,
+                "method": "P10-P90"
+            },
+            "q1": 0.0576,
+            "q3": 0.2066
+        },
+        "front_foot_direction": {
+            "name": "Front Foot Direction (\u00b0)",
+            "valid_samples_count": 10,
+            "mean": 158.063,
+            "median": 161.795,
+            "std": 16.465,
+            "variance": 271.0967,
+            "min": 120.02,
+            "max": 175.74,
+            "p10": 135.626,
+            "p25": 154.92,
+            "p50": 161.795,
+            "p75": 169.5475,
+            "p90": 173.535,
+            "iqr": 14.6275,
+            "outliers": [
+                {
+                    "video_id": "pull_0116",
+                    "filename": "pull_0116.avi",
+                    "raw_value": 120.02,
+                    "reason": "Outside IQR bounds [132.98, 191.49]"
+                }
+            ],
+            "reference_range": {
+                "lower": 135.626,
+                "upper": 173.535,
+                "method": "P10-P90"
+            },
+            "q1": 154.92,
+            "q3": 169.5475
+        },
+        "shoulder_rotation": {
+            "name": "Shoulder Rotation (\u00b0)",
+            "valid_samples_count": 10,
+            "mean": 168.983,
+            "median": 167.27,
+            "std": 7.6578,
+            "variance": 58.6413,
+            "min": 155.73,
+            "max": 180.0,
+            "p10": 161.499,
+            "p25": 163.7925,
+            "p50": 167.27,
+            "p75": 175.6525,
+            "p90": 179.784,
+            "iqr": 11.86,
+            "outliers": [],
+            "reference_range": {
+                "lower": 161.499,
+                "upper": 179.784,
+                "method": "P10-P90"
+            },
+            "q1": 163.7925,
+            "q3": 175.6525
+        },
+        "hip_rotation": {
+            "name": "Hip Rotation (\u00b0)",
+            "valid_samples_count": 10,
+            "mean": 155.221,
+            "median": 161.595,
+            "std": 19.295,
+            "variance": 372.2983,
+            "min": 104.46,
+            "max": 172.57,
+            "p10": 138.831,
+            "p25": 149.475,
+            "p50": 161.595,
+            "p75": 166.9275,
+            "p90": 171.166,
+            "iqr": 17.4525,
+            "outliers": [
+                {
+                    "video_id": "pull_0120",
+                    "filename": "pull_0120.avi",
+                    "raw_value": 104.46,
+                    "reason": "Outside IQR bounds [123.3, 193.11]"
+                }
+            ],
+            "reference_range": {
+                "lower": 138.831,
+                "upper": 171.166,
+                "method": "P10-P90"
+            },
+            "q1": 149.475,
+            "q3": 166.9275
+        },
+        "stride_length": {
+            "name": "Stride Length (norm)",
+            "valid_samples_count": 10,
+            "mean": 0.5761,
+            "median": 0.6947,
+            "std": 0.2407,
+            "variance": 0.0579,
+            "min": 0.2037,
+            "max": 0.8548,
+            "p10": 0.2266,
+            "p25": 0.3519,
+            "p50": 0.6947,
+            "p75": 0.7749,
+            "p90": 0.8206,
+            "iqr": 0.4229,
+            "outliers": [],
+            "reference_range": {
+                "lower": 0.2266,
+                "upper": 0.8206,
+                "method": "P10-P90"
+            },
+            "q1": 0.3519,
+            "q3": 0.7749
+        },
+        "head_stability": {
+            "name": "Head Stability (norm)",
+            "valid_samples_count": 10,
+            "mean": 28.3913,
+            "median": 27.8286,
+            "std": 12.6419,
+            "variance": 159.8176,
+            "min": 9.8165,
+            "max": 47.5728,
+            "p10": 12.0084,
+            "p25": 19.1195,
+            "p50": 27.8286,
+            "p75": 37.335,
+            "p90": 47.2159,
+            "iqr": 18.2155,
+            "outliers": [],
+            "reference_range": {
+                "lower": 12.0084,
+                "upper": 47.2159,
+                "method": "P10-P90"
+            },
+            "q1": 19.1195,
+            "q3": 37.335
+        },
+        "follow_through_angle": {
+            "name": "Follow-Through Angle (\u00b0)",
+            "valid_samples_count": 10,
+            "mean": 135.022,
+            "median": 138.2,
+            "std": 28.7122,
+            "variance": 824.3927,
+            "min": 84.88,
+            "max": 180.0,
+            "p10": 86.707,
+            "p25": 127.0925,
+            "p50": 138.2,
+            "p75": 154.005,
+            "p90": 162.846,
+            "iqr": 26.9125,
+            "outliers": [
+                {
+                    "video_id": "pull_0114",
+                    "filename": "pull_0114.avi",
+                    "raw_value": 84.88,
+                    "reason": "Outside IQR bounds [86.72, 194.37]"
+                }
+            ],
+            "reference_range": {
+                "lower": 86.707,
+                "upper": 162.846,
+                "method": "P10-P90"
+            },
+            "q1": 127.0925,
+            "q3": 154.005
+        },
+        "follow_through_quality": {
+            "name": "Follow-Through Quality (0-100)",
+            "valid_samples_count": 10,
+            "mean": 86.856,
+            "median": 92.13,
+            "std": 15.6898,
+            "variance": 246.1713,
+            "min": 56.59,
+            "max": 100.0,
+            "p10": 57.805,
+            "p25": 84.7275,
+            "p50": 92.13,
+            "p75": 99.455,
+            "p90": 100.0,
+            "iqr": 14.7275,
+            "outliers": [
+                {
+                    "video_id": "pull_0113",
+                    "filename": "pull_0113.avi",
+                    "raw_value": 57.94,
+                    "reason": "Outside IQR bounds [62.64, 121.55]"
+                },
+                {
+                    "video_id": "pull_0114",
+                    "filename": "pull_0114.avi",
+                    "raw_value": 56.59,
+                    "reason": "Outside IQR bounds [62.64, 121.55]"
+                }
+            ],
+            "reference_range": {
+                "lower": 57.805,
+                "upper": 100.0,
+                "method": "P10-P90"
+            },
+            "q1": 84.7275,
+            "q3": 99.455
+        },
+        "rotary_shoulder_diff": {
+            "name": "Rotary Shoulder Diff (\u00b0)",
+            "valid_samples_count": 10,
+            "mean": 29.356,
+            "median": 22.585,
+            "std": 24.0996,
+            "variance": 580.7916,
+            "min": 1.09,
+            "max": 85.41,
+            "p10": 6.778,
+            "p25": 11.995,
+            "p50": 22.585,
+            "p75": 42.485,
+            "p90": 50.031,
+            "iqr": 30.49,
+            "outliers": [],
+            "reference_range": {
+                "lower": 6.778,
+                "upper": 50.031,
+                "method": "P10-P90"
+            },
+            "q1": 11.995,
+            "q3": 42.485
+        },
+        "wrist_horizontal_travel": {
+            "name": "Wrist Horizontal Travel (norm)",
+            "valid_samples_count": 10,
+            "mean": 2.0589,
+            "median": 1.9563,
+            "std": 1.2562,
+            "variance": 1.578,
+            "min": 0.7122,
+            "max": 4.7692,
+            "p10": 0.754,
+            "p25": 1.0069,
+            "p50": 1.9563,
+            "p75": 2.4986,
+            "p90": 3.7258,
+            "iqr": 1.4918,
+            "outliers": [
+                {
+                    "video_id": "pull_0113",
+                    "filename": "pull_0113.avi",
+                    "raw_value": 4.7692,
+                    "reason": "Outside IQR bounds [-1.23, 4.74]"
+                }
+            ],
+            "reference_range": {
+                "lower": 0.754,
+                "upper": 3.7258,
+                "method": "P10-P90"
+            },
+            "q1": 1.0069,
+            "q3": 2.4986
+        },
+        "wrist_vertical_travel": {
+            "name": "Wrist Vertical Travel (norm)",
+            "valid_samples_count": 10,
+            "mean": 5.6853,
+            "median": 5.7102,
+            "std": 1.3564,
+            "variance": 1.8398,
+            "min": 3.8975,
+            "max": 8.5527,
+            "p10": 4.3056,
+            "p25": 4.4606,
+            "p50": 5.7102,
+            "p75": 6.3977,
+            "p90": 7.0132,
+            "iqr": 1.9371,
+            "outliers": [],
+            "reference_range": {
+                "lower": 4.3056,
+                "upper": 7.0132,
+                "method": "P10-P90"
+            },
+            "q1": 4.4606,
+            "q3": 6.3977
+        }
+    },
+    "outlier_diagnostics": {
+        "front_elbow_angle": [],
+        "spine_lean": [
+            {
+                "video_id": "pull_0112",
+                "filename": "pull_0112.avi",
+                "raw_value": 21.06,
+                "reason": "Outside IQR bounds [0.59, 17.99]"
+            },
+            {
+                "video_id": "pull_0115",
+                "filename": "pull_0115.avi",
+                "raw_value": 30.73,
+                "reason": "Outside IQR bounds [0.59, 17.99]"
+            },
+            {
+                "video_id": "pull_0120",
+                "filename": "pull_0120.avi",
+                "raw_value": 0.33,
+                "reason": "Outside IQR bounds [0.59, 17.99]"
+            }
+        ],
+        "head_knee_alignment": [],
+        "front_foot_direction": [
+            {
+                "video_id": "pull_0116",
+                "filename": "pull_0116.avi",
+                "raw_value": 120.02,
+                "reason": "Outside IQR bounds [132.98, 191.49]"
+            }
+        ],
+        "shoulder_rotation": [],
+        "hip_rotation": [
+            {
+                "video_id": "pull_0120",
+                "filename": "pull_0120.avi",
+                "raw_value": 104.46,
+                "reason": "Outside IQR bounds [123.3, 193.11]"
+            }
+        ],
+        "stride_length": [],
+        "head_stability": [],
+        "follow_through_angle": [
+            {
+                "video_id": "pull_0114",
+                "filename": "pull_0114.avi",
+                "raw_value": 84.88,
+                "reason": "Outside IQR bounds [86.72, 194.37]"
+            }
+        ],
+        "follow_through_quality": [
+            {
+                "video_id": "pull_0113",
+                "filename": "pull_0113.avi",
+                "raw_value": 57.94,
+                "reason": "Outside IQR bounds [62.64, 121.55]"
+            },
+            {
+                "video_id": "pull_0114",
+                "filename": "pull_0114.avi",
+                "raw_value": 56.59,
+                "reason": "Outside IQR bounds [62.64, 121.55]"
+            }
+        ],
+        "rotary_shoulder_diff": [],
+        "wrist_horizontal_travel": [
+            {
+                "video_id": "pull_0113",
+                "filename": "pull_0113.avi",
+                "raw_value": 4.7692,
+                "reason": "Outside IQR bounds [-1.23, 4.74]"
+            }
+        ],
+        "wrist_vertical_travel": []
+    },
+    "per_video_data": [
+        {
+            "video_id": "pull_0111",
+            "filename": "pull_0111.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0111.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 1.6,
+            "fps": 25,
+            "total_frames": 40,
+            "resolution": "1280x720",
+            "valid_pose_frames": 40,
+            "pose_detection_pct": 100.0,
+            "contact_frame": 20,
+            "contact_detected": true,
+            "handedness": "left",
+            "metrics": {
+                "front_elbow_angle": 73.48,
+                "spine_lean": 5.04,
+                "head_knee_alignment": 0.1591,
+                "front_foot_direction": 173.29,
+                "shoulder_rotation": 171.91,
+                "hip_rotation": 171.01,
+                "stride_length": 0.4156,
+                "head_stability": 47.5728,
+                "follow_through_angle": 136.94,
+                "follow_through_quality": 91.29,
+                "rotary_shoulder_diff": 41.15,
+                "wrist_horizontal_travel": 2.2053,
+                "wrist_vertical_travel": 4.3691
+            }
+        },
+        {
+            "video_id": "pull_0112",
+            "filename": "pull_0112.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0112.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 1.68,
+            "fps": 25,
+            "total_frames": 42,
+            "resolution": "1280x720",
+            "valid_pose_frames": 42,
+            "pose_detection_pct": 100.0,
+            "contact_frame": 28,
+            "contact_detected": true,
+            "handedness": "left",
+            "metrics": {
+                "front_elbow_angle": 119.26,
+                "spine_lean": 21.06,
+                "head_knee_alignment": 0.0521,
+                "front_foot_direction": 175.74,
+                "shoulder_rotation": 165.76,
+                "hip_rotation": 160.5,
+                "stride_length": 0.8548,
+                "head_stability": 26.7165,
+                "follow_through_angle": 125.22,
+                "follow_through_quality": 83.48,
+                "rotary_shoulder_diff": 12.46,
+                "wrist_horizontal_travel": 1.9148,
+                "wrist_vertical_travel": 6.2323
+            }
+        },
+        {
+            "video_id": "pull_0113",
+            "filename": "pull_0113.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0113.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 3.0,
+            "fps": 25,
+            "total_frames": 75,
+            "resolution": "1280x720",
+            "valid_pose_frames": 75,
+            "pose_detection_pct": 100.0,
+            "contact_frame": 47,
+            "contact_detected": true,
+            "handedness": "right",
+            "metrics": {
+                "front_elbow_angle": 74.13,
+                "spine_lean": 7.11,
+                "head_knee_alignment": 0.28,
+                "front_foot_direction": 137.36,
+                "shoulder_rotation": 179.76,
+                "hip_rotation": 164.19,
+                "stride_length": 0.7891,
+                "head_stability": 30.6638,
+                "follow_through_angle": 86.91,
+                "follow_through_quality": 57.94,
+                "rotary_shoulder_diff": 85.41,
+                "wrist_horizontal_travel": 4.7692,
+                "wrist_vertical_travel": 6.1205
+            }
+        },
+        {
+            "video_id": "pull_0114",
+            "filename": "pull_0114.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0114.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 1.48,
+            "fps": 25,
+            "total_frames": 37,
+            "resolution": "1280x720",
+            "valid_pose_frames": 37,
+            "pose_detection_pct": 100.0,
+            "contact_frame": 27,
+            "contact_detected": true,
+            "handedness": "right",
+            "metrics": {
+                "front_elbow_angle": 106.89,
+                "spine_lean": 7.12,
+                "head_knee_alignment": 0.0568,
+                "front_foot_direction": 167.68,
+                "shoulder_rotation": 165.69,
+                "hip_rotation": 167.84,
+                "stride_length": 0.3307,
+                "head_stability": 17.6313,
+                "follow_through_angle": 84.88,
+                "follow_through_quality": 56.59,
+                "rotary_shoulder_diff": 29.57,
+                "wrist_horizontal_travel": 1.0241,
+                "wrist_vertical_travel": 4.3509
+            }
+        },
+        {
+            "video_id": "pull_0115",
+            "filename": "pull_0115.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0115.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 1.36,
+            "fps": 25,
+            "total_frames": 34,
+            "resolution": "1280x720",
+            "valid_pose_frames": 34,
+            "pose_detection_pct": 100.0,
+            "contact_frame": 12,
+            "contact_detected": true,
+            "handedness": "right",
+            "metrics": {
+                "front_elbow_angle": 157.48,
+                "spine_lean": 30.73,
+                "head_knee_alignment": 0.099,
+                "front_foot_direction": 162.48,
+                "shoulder_rotation": 162.14,
+                "hip_rotation": 142.65,
+                "stride_length": 0.2292,
+                "head_stability": 12.2519,
+                "follow_through_angle": 132.71,
+                "follow_through_quality": 88.47,
+                "rotary_shoulder_diff": 7.41,
+                "wrist_horizontal_travel": 0.7586,
+                "wrist_vertical_travel": 4.7351
+            }
+        },
+        {
+            "video_id": "pull_0116",
+            "filename": "pull_0116.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0116.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 2.92,
+            "fps": 25,
+            "total_frames": 73,
+            "resolution": "1280x720",
+            "valid_pose_frames": 72,
+            "pose_detection_pct": 98.6,
+            "contact_frame": 25,
+            "contact_detected": true,
+            "handedness": "left",
+            "metrics": {
+                "front_elbow_angle": 169.22,
+                "spine_lean": 10.0,
+                "head_knee_alignment": 0.2888,
+                "front_foot_direction": 120.02,
+                "shoulder_rotation": 168.78,
+                "hip_rotation": 161.13,
+                "stride_length": 0.6751,
+                "head_stability": 39.5588,
+                "follow_through_angle": 146.73,
+                "follow_through_quality": 97.82,
+                "rotary_shoulder_diff": 1.09,
+                "wrist_horizontal_travel": 3.6099,
+                "wrist_vertical_travel": 6.8421
+            }
+        },
+        {
+            "video_id": "pull_0117",
+            "filename": "pull_0117.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0117.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 1.68,
+            "fps": 25,
+            "total_frames": 42,
+            "resolution": "1280x720",
+            "valid_pose_frames": 41,
+            "pose_detection_pct": 97.6,
+            "contact_frame": 16,
+            "contact_detected": true,
+            "handedness": "left",
+            "metrics": {
+                "front_elbow_angle": 37.06,
+                "spine_lean": 11.95,
+                "head_knee_alignment": 0.1602,
+                "front_foot_direction": 161.11,
+                "shoulder_rotation": 163.16,
+                "hip_rotation": 162.06,
+                "stride_length": 0.7321,
+                "head_stability": 9.8165,
+                "follow_through_angle": 156.43,
+                "follow_through_quality": 100.0,
+                "rotary_shoulder_diff": 11.84,
+                "wrist_horizontal_travel": 1.0011,
+                "wrist_vertical_travel": 3.8975
+            }
+        },
+        {
+            "video_id": "pull_0118",
+            "filename": "pull_0118.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0118.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 2.84,
+            "fps": 25,
+            "total_frames": 71,
+            "resolution": "1280x720",
+            "valid_pose_frames": 71,
+            "pose_detection_pct": 100.0,
+            "contact_frame": 52,
+            "contact_detected": true,
+            "handedness": "right",
+            "metrics": {
+                "front_elbow_angle": 170.37,
+                "spine_lean": 9.14,
+                "head_knee_alignment": 0.222,
+                "front_foot_direction": 159.33,
+                "shoulder_rotation": 176.9,
+                "hip_rotation": 145.8,
+                "stride_length": 0.7144,
+                "head_stability": 28.9408,
+                "follow_through_angle": 160.94,
+                "follow_through_quality": 100.0,
+                "rotary_shoulder_diff": 46.1,
+                "wrist_horizontal_travel": 0.7122,
+                "wrist_vertical_travel": 6.4528
+            }
+        },
+        {
+            "video_id": "pull_0119",
+            "filename": "pull_0119.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0119.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 2.36,
+            "fps": 25,
+            "total_frames": 59,
+            "resolution": "1280x720",
+            "valid_pose_frames": 58,
+            "pose_detection_pct": 98.3,
+            "contact_frame": 37,
+            "contact_detected": true,
+            "handedness": "right",
+            "metrics": {
+                "front_elbow_angle": 175.41,
+                "spine_lean": 10.0,
+                "head_knee_alignment": 0.0399,
+                "front_foot_direction": 170.17,
+                "shoulder_rotation": 155.73,
+                "hip_rotation": 172.57,
+                "stride_length": 0.8168,
+                "head_stability": 23.5842,
+                "follow_through_angle": 139.46,
+                "follow_through_quality": 92.97,
+                "rotary_shoulder_diff": 15.6,
+                "wrist_horizontal_travel": 2.5964,
+                "wrist_vertical_travel": 8.5527
+            }
+        },
+        {
+            "video_id": "pull_0120",
+            "filename": "pull_0120.avi",
+            "filepath": "data\\reference_videos\\pull_shot\\pull_0120.avi",
+            "status": "valid",
+            "exclusion_reason": "",
+            "duration_sec": 2.0,
+            "fps": 25,
+            "total_frames": 50,
+            "resolution": "1280x720",
+            "valid_pose_frames": 49,
+            "pose_detection_pct": 98.0,
+            "contact_frame": 37,
+            "contact_detected": true,
+            "handedness": "right",
+            "metrics": {
+                "front_elbow_angle": 180.0,
+                "spine_lean": 0.33,
+                "head_knee_alignment": 0.0601,
+                "front_foot_direction": 153.45,
+                "shoulder_rotation": 180.0,
+                "hip_rotation": 104.46,
+                "stride_length": 0.2037,
+                "head_stability": 47.1762,
+                "follow_through_angle": 180.0,
+                "follow_through_quality": 100.0,
+                "rotary_shoulder_diff": 42.93,
+                "wrist_horizontal_travel": 1.9978,
+                "wrist_vertical_travel": 5.2999
+            }
+        }
+    ],
+    "data_source_label": "Calculated from available reference/calibration data across all reference videos"
+}
